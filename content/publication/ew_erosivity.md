@@ -40,7 +40,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["machine learning", "erosivity"]
+tags = ["machine learning", "erosivity", "water-resources", "infilling"]
 
 # Links (optional).
 url_pdf = "pdf/EW_2017_57_27.pdf"
@@ -51,7 +51,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "http://www.ewra.net/ew/pdf/EW_2017_57_27.pdf"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
