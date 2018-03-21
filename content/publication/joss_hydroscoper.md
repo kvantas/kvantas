@@ -61,7 +61,7 @@ url_source = "http://joss.theoj.org/papers/d880c6734171479faae7eb53bf826ace"
 math = false
 
 # Does this page require source code highlighting? (true/false)
-highlight = true
+highlight = false
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
