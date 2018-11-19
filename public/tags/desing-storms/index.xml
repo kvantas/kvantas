@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>desing-storms on Konstantinos Vantas</title>
+    <link>/tags/desing-storms/</link>
+    <description>Recent content in desing-storms on Konstantinos Vantas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <lastBuildDate>Thu, 15 Feb 2018 17:19:28 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/desing-storms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rainfall temporal distribution in Thrace by means of an unsupervised machine learning method</title>
+      <link>/publication/pre_hyetographs/</link>
+      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
+      
+      <guid>/publication/pre_hyetographs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

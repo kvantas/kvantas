@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>erosivity density on Konstantinos Vantas</title>
+    <link>/tags/erosivity-density/</link>
+    <description>Recent content in erosivity density on Konstantinos Vantas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <lastBuildDate>Thu, 15 Nov 2018 16:17:52 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/erosivity-density/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Temporal and elevation trend detection of rainfall erosivity density in Greece</title>
+      <link>/publication/ecws3/</link>
+      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/ecws3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infilling on Konstantinos Vantas</title>
+    <link>/tags/infilling/</link>
+    <description>Recent content in infilling on Konstantinos Vantas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <lastBuildDate>Wed, 15 Feb 2017 16:17:52 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/infilling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Imputation of erosivity values under incomplete rainfall data by machine learning methods</title>
+      <link>/publication/ew_erosivity/</link>
+      <pubDate>Wed, 15 Feb 2017 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/ew_erosivity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

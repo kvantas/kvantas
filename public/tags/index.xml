@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Konstantinos Vantas</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Konstantinos Vantas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <lastBuildDate>Thu, 15 Nov 2018 16:17:52 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Greece</title>
+      <link>/tags/greece/</link>
+      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/greece/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R package</title>
+      <link>/tags/r-package/</link>
+      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>desing-storms</title>
+      <link>/tags/desing-storms/</link>
+      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/desing-storms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>erosivity density</title>
+      <link>/tags/erosivity-density/</link>
+      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/erosivity-density/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hydrometeorology</title>
+      <link>/tags/hydrometeorology/</link>
+      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/hydrometeorology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyetographs</title>
+      <link>/tags/hyetographs/</link>
+      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/hyetographs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infilling</title>
+      <link>/tags/infilling/</link>
+      <pubDate>Wed, 15 Feb 2017 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/infilling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meteorological-data</title>
+      <link>/tags/meteorological-data/</link>
+      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/meteorological-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rainfall erosivity</title>
+      <link>/tags/rainfall-erosivity/</link>
+      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/rainfall-erosivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trend detection</title>
+      <link>/tags/trend-detection/</link>
+      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/trend-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>water-resources</title>
+      <link>/tags/water-resources/</link>
+      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/water-resources/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
