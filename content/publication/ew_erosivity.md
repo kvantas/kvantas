@@ -40,7 +40,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["machine learning", "erosivity", "water-resources", "infilling"]
+tags = ["machine learning", "rainfall erosivity", "water-resources", "infilling"]
 
 # Links (optional).
 url_pdf = "pdf/EW_2017_57_27.pdf"

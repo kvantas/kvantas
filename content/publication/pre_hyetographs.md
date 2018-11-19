@@ -18,8 +18,8 @@ authors = ["K Vantas", "E Sidiropoulos", "M Vafeiadis"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Accepted in *Protection and Restoration of the Environment XIV*, 2018"
-publication_short = "Accepted in *preXIV*"
+publication = "*Protection and Restoration of the Environment XIV*, 2018"
+publication_short = "*preXIV*"
 
 # Abstract and optional shortened version.
 abstract = "An unsupervised method that utilizes a combination of statistical and machine learning techniques is presented in order to classify statistically independent rainstorm events and create a limited number of design hyetographs for the Water Division of Thrace in Greece. The whole process includes the necessary steps from importing raw precipitation time series data to producing the initially unknown optimal number of representative design hyetographs. These hyetographs can be used for stochastic simulation, water resources planning, water quality assessment and global change studying. The present type of analysis is applied for the first time on data from a Greek region and, in addition, it presents certain characteristics of a more general applicability. Namely, the method employed is fully unsupervised, as no empirical knowledge of local rainfalls is implicated or any arbitrary introduction of quartiles for grouping. Also, the critical time duration of no precipitation between rainstorm events is not defined in advance, as is the case in the pertinent literature."
@@ -43,7 +43,7 @@ projects = []
 tags = ["machine learning", "hyetographs", "water-resources", "desing-storms"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/PRE_XIV_Paper_ID123.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -51,7 +51,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "http://pre14.civil.auth.gr/images/DownLoads/03-PRE-XIV_Book-of-Proceedings.pdf"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
