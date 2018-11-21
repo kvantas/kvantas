@@ -6,7 +6,7 @@
 baseurl = "/"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-114200831-1"
+googleAnalytics = "UA-129609100-1"
 
 # Ignore Rstudio files
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
