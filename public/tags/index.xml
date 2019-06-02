@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
-    <lastBuildDate>Thu, 15 Nov 2018 16:17:52 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2019 16:17:52 +0200</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title> rainfall erosivity</title>
+      <link>/tags/rainfall-erosivity/</link>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/rainfall-erosivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Greece</title>
       <link>/tags/greece/</link>
-      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
       
       <guid>/tags/greece/</guid>
       <description></description>
@@ -31,9 +40,36 @@
     </item>
     
     <item>
+      <title>SOM</title>
+      <link>/tags/som/</link>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/som/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cellular automata</title>
+      <link>/tags/cellular-automata/</link>
+      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/cellular-automata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clustering analysis</title>
+      <link>/tags/clustering-analysis/</link>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/clustering-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>desing-storms</title>
       <link>/tags/desing-storms/</link>
-      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
       
       <guid>/tags/desing-storms/</guid>
       <description></description>
@@ -42,9 +78,18 @@
     <item>
       <title>erosivity density</title>
       <link>/tags/erosivity-density/</link>
-      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
       
       <guid>/tags/erosivity-density/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extremal optimization</title>
+      <link>/tags/extremal-optimization/</link>
+      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/extremal-optimization/</guid>
       <description></description>
     </item>
     
@@ -60,7 +105,7 @@
     <item>
       <title>hyetographs</title>
       <link>/tags/hyetographs/</link>
-      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
       
       <guid>/tags/hyetographs/</guid>
       <description></description>
@@ -103,18 +148,36 @@
     </item>
     
     <item>
+      <title>spatial allocation</title>
+      <link>/tags/spatial-allocation/</link>
+      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/spatial-allocation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>trend detection</title>
       <link>/tags/trend-detection/</link>
-      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
       
       <guid>/tags/trend-detection/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>unsupervised learning</title>
+      <link>/tags/unsupervised-learning/</link>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/unsupervised-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>water-resources</title>
       <link>/tags/water-resources/</link>
-      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
       
       <guid>/tags/water-resources/</guid>
       <description></description>

@@ -22,7 +22,7 @@ publication = "*3rd International Electronic Conference on Water Sciences*, 2018
 publication_short = "*3rd International Electronic Conference on Water Sciences*"
 
 # Abstract and optional shortened version.
-abstract = "This paper presents certain characteristics of trends in rainfall erosivity density (ED), that have not been so far investigated in depth in the current literature. Global warming is expected to increase the intensity of rainfall in Europe and consequently to increase the soil erosion rates. This potential may have a significant impact, especially on Greece, which is inflicted by the phenomenon of desertification. Raw pluviograph data were acquired from the Greek National Bank of Hydrological and Meteorological Information for 108 stations. Precipitation time series values were cleared from noise and errors and the ratio of missing values was computed. Erosive rainfalls were identified, their return period was determined using Intensity–Duration–Frequency (IDF) curves and erosivity values were computed. A Monte Carlo method was utilized to assess the impact of missing values ratio to the computation of annual erosivity (R) and ED values. It was found that the R values are underestimated in a linear way, while ED is more robust against the presence of missing precipitation values. Indicatively, the R values are underestimated by 49%, when only 50% of the erosive rainfall events are used while at the same time the estimation error of ED is 20%. Using predefined quality criteria for coverage and time length a subset of 18 stations was selected. Their annual ED values, as well as the samples' autocorrelation and partial autocorrelation functions were computed, in order to investigate the presence of stochastic trends. Subsequently, Kendall's Tau was used in order to yield a measure of the monotonic relationship between annual ED values and time. Finally, the hypothesis that ED values are affected by elevation was tested. In conclusion: a) it is suggested to compute ED for the assessment of erosivity in Greece instead of the direct computation of R, b) stationarity of ED was found for the majority of the selected stations, in contrast to reported precipitation trends for the same time period and c) the hypothesis that ED values are not correlated to elevation could not be rejected."
+abstract = "This paper presents certain characteristics of trends in rainfall erosivity density (ED), that have not been so far investigated in depth in the current literature. Raw pluviograph data were acquired from the Greek National Bank of Hydrological and Meteorological Information for 108 stations. Precipitation time series values were cleared from noise and errors, and the ratio of missing values was computed. Erosive rainfalls were identified, their return period was determined using intensity???duration???frequency (IDF) curves and erosivity values were computed. A Monte Carlo method was utilized to assess the impact of missing values ratio to the computation of annual erosivity (R) and ED values. It was found that the R values are underestimated in a linear way, while ED is more robust against the presence of missing precipitation values. Indicatively, the R values are underestimated by 49%, when only 50% of the erosive rainfall events are used, while at the same time the estimation error of ED is 20%. Using predefined quality criteria for coverage and time length, a subset of stations was selected. Their annual ED values, as well as the samples' autocorrelation and partial autocorrelation functions were computed, in order to investigate the presence of stochastic trends. Subsequently, Kendall's Tau was used in order to yield a measure of the monotonic relationship between annual ED values and time. Finally, the hypothesis that ED values are affected by elevation was tested. In conclusion: (a) It is suggested to compute ED for the assessment of erosivity in Greece instead of the direct computation of R; (b) stationarity of ED was found for the majority of the selected stations, in contrast to reported precipitation trends for the same time period; and (c) the hypothesis that ED values are not correlated to elevation could not be rejected."
 
 abstract_short = "In this article, a comparison is presented of empirical equations to machine learning methods for the estimation and imputation of rainfall erosivity values."
 
@@ -43,7 +43,7 @@ projects = []
 tags = ["rainfall erosivity", "erosivity density", "water-resources", "trend detection", "Greece"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/proceedings-07-00010.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -51,7 +51,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://sciforum.net/manuscripts/5814/manuscript.pdf"
+url_source = "https://www.mdpi.com/2504-3900/7/1/10/pdf"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

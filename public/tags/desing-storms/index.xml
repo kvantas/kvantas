@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
-    <lastBuildDate>Thu, 15 Feb 2018 17:19:28 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 17:19:28 +0200</lastBuildDate>
     
 	<atom:link href="/tags/desing-storms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A data driven approach for the temporal classification of heavy rainfall using Self-Organizing Maps</title>
+      <link>/publication/egu_2019_som/</link>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/publication/egu_2019_som/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Rainfall temporal distribution in Thrace by means of an unsupervised machine learning method</title>

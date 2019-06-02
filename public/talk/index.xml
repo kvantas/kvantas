@@ -13,20 +13,29 @@
     
     
     <item>
-      <title>Rainfall temporal distribution in Thrace by means of an unsupervised machine learning method</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Tue, 03 Jul 2018 00:00:00 +0300</pubDate>
+      <title>Temporal and elevation trend detection of rainfall erosivity density in Greece</title>
+      <link>/talk/egu2019/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0300</pubDate>
       
-      <guid>/talk/example-talk/</guid>
+      <guid>/talk/egu2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Temporal and elevation trend detection of rainfall erosivity density in Greece</title>
-      <link>/talk/example-talk-copy/</link>
+      <title>Rainfall temporal distribution in Thrace by means of an unsupervised machine learning method</title>
+      <link>/talk/rainfall_pre14/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0300</pubDate>
       
-      <guid>/talk/example-talk-copy/</guid>
+      <guid>/talk/rainfall_pre14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial groundwater resource allocation by means of extremal optimization, combined with a cellular automata component</title>
+      <link>/talk/ecws3/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/ecws3/</guid>
       <description></description>
     </item>
     

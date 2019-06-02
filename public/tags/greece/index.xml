@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
-    <lastBuildDate>Thu, 15 Nov 2018 16:17:52 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2019 16:17:52 +0200</lastBuildDate>
     
 	<atom:link href="/tags/greece/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title> Robustness Spatiotemporal Clustering and Trend Detection of Rainfall Erosivity Density in Greece </title>
+      <link>/publication/water_ed/</link>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/water_ed/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Temporal and elevation trend detection of rainfall erosivity density in Greece</title>
