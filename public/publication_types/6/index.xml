@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 on Konstantinos Vantas</title>
+    <link>/publication_types/6/</link>
+    <description>Recent content in 6 on Konstantinos Vantas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <lastBuildDate>Sun, 16 Jun 2019 16:17:52 +0200</lastBuildDate>
+    
+	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rainfall Erosivity and Its Estimation: Conventional and Machine Learning Methods</title>
+      <link>/publication/intech_eros/</link>
+      <pubDate>Sun, 16 Jun 2019 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/intech_eros/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

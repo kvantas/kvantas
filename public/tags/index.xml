@@ -7,53 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
-    <lastBuildDate>Thu, 16 May 2019 16:17:52 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 16:17:52 +0200</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title> rainfall erosivity</title>
-      <link>/tags/rainfall-erosivity/</link>
-      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
-      
-      <guid>/tags/rainfall-erosivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Greece</title>
       <link>/tags/greece/</link>
-      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
+      <pubDate>Sun, 16 Jun 2019 16:17:52 +0200</pubDate>
       
       <guid>/tags/greece/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R package</title>
-      <link>/tags/r-package/</link>
-      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      <title>machine-learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Sun, 16 Jun 2019 16:17:52 +0200</pubDate>
       
-      <guid>/tags/r-package/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SOM</title>
-      <link>/tags/som/</link>
-      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
+      <title>rainfall erosivity</title>
+      <link>/tags/rainfall-erosivity/</link>
+      <pubDate>Sun, 16 Jun 2019 16:17:52 +0200</pubDate>
       
-      <guid>/tags/som/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cellular automata</title>
-      <link>/tags/cellular-automata/</link>
-      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
-      
-      <guid>/tags/cellular-automata/</guid>
+      <guid>/tags/rainfall-erosivity/</guid>
       <description></description>
     </item>
     
@@ -67,15 +49,6 @@
     </item>
     
     <item>
-      <title>desing-storms</title>
-      <link>/tags/desing-storms/</link>
-      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
-      
-      <guid>/tags/desing-storms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>erosivity density</title>
       <link>/tags/erosivity-density/</link>
       <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
@@ -85,20 +58,29 @@
     </item>
     
     <item>
-      <title>extremal optimization</title>
-      <link>/tags/extremal-optimization/</link>
-      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      <title>trend detection</title>
+      <link>/tags/trend-detection/</link>
+      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
       
-      <guid>/tags/extremal-optimization/</guid>
+      <guid>/tags/trend-detection/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hydrometeorology</title>
-      <link>/tags/hydrometeorology/</link>
-      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      <title>SOM</title>
+      <link>/tags/som/</link>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
       
-      <guid>/tags/hydrometeorology/</guid>
+      <guid>/tags/som/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>desing-storms</title>
+      <link>/tags/desing-storms/</link>
+      <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/desing-storms/</guid>
       <description></description>
     </item>
     
@@ -108,60 +90,6 @@
       <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
       
       <guid>/tags/hyetographs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>infilling</title>
-      <link>/tags/infilling/</link>
-      <pubDate>Wed, 15 Feb 2017 16:17:52 +0200</pubDate>
-      
-      <guid>/tags/infilling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>/tags/machine-learning/</link>
-      <pubDate>Thu, 15 Feb 2018 17:19:28 +0200</pubDate>
-      
-      <guid>/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meteorological-data</title>
-      <link>/tags/meteorological-data/</link>
-      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
-      
-      <guid>/tags/meteorological-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rainfall erosivity</title>
-      <link>/tags/rainfall-erosivity/</link>
-      <pubDate>Thu, 15 Nov 2018 16:17:52 +0200</pubDate>
-      
-      <guid>/tags/rainfall-erosivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spatial allocation</title>
-      <link>/tags/spatial-allocation/</link>
-      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
-      
-      <guid>/tags/spatial-allocation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trend detection</title>
-      <link>/tags/trend-detection/</link>
-      <pubDate>Thu, 16 May 2019 16:17:52 +0200</pubDate>
-      
-      <guid>/tags/trend-detection/</guid>
       <description></description>
     </item>
     
@@ -180,6 +108,69 @@
       <pubDate>Wed, 10 Apr 2019 17:19:28 +0200</pubDate>
       
       <guid>/tags/water-resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cellular automata</title>
+      <link>/tags/cellular-automata/</link>
+      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/cellular-automata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extremal optimization</title>
+      <link>/tags/extremal-optimization/</link>
+      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/extremal-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatial allocation</title>
+      <link>/tags/spatial-allocation/</link>
+      <pubDate>Mon, 08 Apr 2019 17:19:28 +0200</pubDate>
+      
+      <guid>/tags/spatial-allocation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R package</title>
+      <link>/tags/r-package/</link>
+      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hydrometeorology</title>
+      <link>/tags/hydrometeorology/</link>
+      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/hydrometeorology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meteorological-data</title>
+      <link>/tags/meteorological-data/</link>
+      <pubDate>Thu, 15 Mar 2018 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/meteorological-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infilling</title>
+      <link>/tags/infilling/</link>
+      <pubDate>Wed, 15 Feb 2017 16:17:52 +0200</pubDate>
+      
+      <guid>/tags/infilling/</guid>
       <description></description>
     </item>
     
