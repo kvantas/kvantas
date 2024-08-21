@@ -30,7 +30,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -40,7 +40,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["unsupervised learning", "SOM", "hyetographs", "water-resources", "desing-storms"]
+tags = ["unsupervised learning", "SOM", "hyetographs", "water-resources", "design-storms"]
 
 # Links (optional).
 url_pdf = "pdf/EGU2019-10680.pdf"

@@ -24,6 +24,11 @@ weight = 5
   year = 2017
 
 [[education.courses]]
+  course = "MSc in Law School"
+  institution = "Aristotle University of Thessaloniki"
+  year = 2022
+
+[[education.courses]]
   course = "MSc in Geoinformatics"
   institution = "Aristotle University of Thessaloniki"
   year = 2005
@@ -37,6 +42,6 @@ weight = 5
 
 # Biography
 
-I am a consultant engineer in Hydraulic Engineering and Geoinformatics and have 14+ years of experience on independent expertise in engineering to the Greek government, developers and construction firms as sole practitioner.
+I am a consultant engineer in Hydraulic Engineering and Geoinformatics and have 19+ years of experience on independent expertise in engineering to the Greek government, developers and construction firms.
 
 My research interests include Hydrology, Water Resources Management and Machine Learning. I am a member of the Technical Chamber of Greece and the Hellenic Association of Rural and Surveying Engineers.

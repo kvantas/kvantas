@@ -6,11 +6,101 @@
     <description>Recent content in Publications on Konstantinos Vantas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <copyright>&amp;copy; 2024 Konstantinos Vantas</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adaptation of the Engelund-Hansen formula to Nestos River, Greece</title>
+      <link>/publication/engelund_hansen_nestos/</link>
+      <pubDate>Sat, 09 Jul 2022 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/engelund_hansen_nestos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving the positional accuracy of cadastral maps via Machine Learning methods</title>
+      <link>/publication/machine_cadastre/</link>
+      <pubDate>Wed, 16 Mar 2022 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/machine_cadastre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soil erosion modelling: A bibliometric analysis</title>
+      <link>/publication/env_res2021/</link>
+      <pubDate>Sun, 06 Jun 2021 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/env_res2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge discovery using clustering analysis of rainfall timeseries</title>
+      <link>/publication/egu_2021/</link>
+      <pubDate>Sat, 10 Apr 2021 17:19:28 +0200</pubDate>
+      
+      <guid>/publication/egu_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Intra-storm pattern recognition through fuzzy clustering </title>
+      <link>/publication/fuzzy_hydrology/</link>
+      <pubDate>Tue, 16 Mar 2021 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/fuzzy_hydrology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Extending the Applicability of the Meyer–Peter and Müller Bed Load Transport Formula</title>
+      <link>/publication/water_meyer/</link>
+      <pubDate>Sat, 16 Jan 2021 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/water_meyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soil erosion modelling: A global review and statistical analysis</title>
+      <link>/publication/stoten2021/</link>
+      <pubDate>Wed, 06 Jan 2021 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/stoten2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating rainfall erosivity from daily precipitation using generalized additive models</title>
+      <link>/publication/gam_eros/</link>
+      <pubDate>Sat, 15 Aug 2020 17:19:28 +0200</pubDate>
+      
+      <guid>/publication/gam_eros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating current and future rainfall erosivity in Greece using regional climate models and spatial quantile regression forests</title>
+      <link>/publication/water_eros/</link>
+      <pubDate>Mon, 16 Mar 2020 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/water_eros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Soil erosion modelling: A bibliometric analysis </title>
+      <link>/publication/egu2020/</link>
+      <pubDate>Mon, 06 Jan 2020 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/egu2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Optimal temporal distribution curves for the classification of heavy precipitation using hierarchical clustering on principal components</title>
@@ -91,6 +181,24 @@
       
       <guid>/publication/ew_erosivity/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling distribution system water quality with HYDROSIM model</title>
+      <link>/publication/hydrosim/</link>
+      <pubDate>Sun, 15 Mar 2009 16:17:52 +0200</pubDate>
+      
+      <guid>/publication/hydrosim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/publication/env_res2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/env_res2021/</guid>
+      <description>env_res2021// Pandoc 2.9 adds attributes on both header and div. We remove the former (to// be compatible with the behavior of Pandoc :first-child&#34;);var i, h, a;for (i = 0; i 0) h.removeAttribute(a[0].name);}});/*! jQuery v3.6.0 | (c) OpenJS Foundation and other contributors | jquery.org/license */!function(e,t){&#34;use strict&#34;;&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return t(e)}:t(e)}(&#34;undefined&#34;!=typeof window?window:this,function(C,e){&#34;use strict&#34;;var t=[],r=Object.getPrototypeOf,s=t.slice,g=t.flat?function(e){return t.</description>
     </item>
     
   </channel>

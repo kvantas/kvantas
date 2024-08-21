@@ -6,11 +6,38 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Konstantinos Vantas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Konstantinos Vantas</copyright>
+    <copyright>&amp;copy; 2024 Konstantinos Vantas</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning from data using Matlab</title>
+      <link>/talk/learningmatlab/</link>
+      <pubDate>Tue, 28 May 2024 14:00:00 +0300</pubDate>
+      
+      <guid>/talk/learningmatlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate change and AI</title>
+      <link>/talk/climatemachine/</link>
+      <pubDate>Tue, 12 Dec 2023 14:00:00 +0200</pubDate>
+      
+      <guid>/talk/climatemachine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge discovery using clustering analysis of rainfall timeseries</title>
+      <link>/talk/egu2021/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/egu2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Temporal and elevation trend detection of rainfall erosivity density in Greece</title>

@@ -40,7 +40,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["machine learning", "hyetographs", "water-resources", "desing-storms"]
+tags = ["machine learning", "hyetographs", "water-resources", "design-storms"]
 
 # Links (optional).
 url_pdf = "pdf/PRE_XIV_Paper_ID123.pdf"

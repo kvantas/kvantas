@@ -40,7 +40,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["R package", "water-resources", "meteorological-data", "hydrometeorology"]
+tags = ["R package", "water-resources", "meteorological-data", "hydro-meteorology"]
 
 # Links (optional).
 url_pdf = "pdf/10.21105.joss.00625.pdf"
