@@ -18,8 +18,9 @@ authors = ["K Vantas", "E Sidiropoulos", "A Loukas"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In Water *12(3)*: p. 687"
+publication = "*Water* 12(3): 687, 2020"
 publication_short = "In *Water*"
+doi = "10.3390/w12030687"
 # Abstract and optional shortened version.
 abstract = "A future variation of precipitation characteristics, due to climate change, will affect the ability of rainfall to precipitate soil loss. In this paper, the monthly and annual values of rainfall erosivity (R) in Greece are calculated, for the historical period 1971–2000, using precipitation records that suffer from a significant volume of missing values. In order to overcome the data limitations, an intermediate step is applied using the calculation of monthly erosivity density, which is more robust to the presence of missing values. Spatial Quantile Regression Forests, a data driven algorithm that imitates kriging without the need of strict statistical assumptions, was utilized and validated, in order to create maps of R and its uncertainty using error propagation. The monthly average precipitation for the historical period 1971–2000 estimated by five (5) Global Circulation Models-Regional Climatic Models were validated against observed values and the one with the best performance was used to estimate projected changes of R in Greece for the future time period 2011–2100 and two different greenhouse gases concentration scenarios. The main findings of this study are: (a) the mean annual R in Greece is 1039 MJ·mm/ha/h/y, with a range between 405.1 and 3160.2 MJ·mm/ha/h/y. The highest values are calculated at the mountain range of Pindos and the lowest at central Greece; (b) the monthly R maps adhere to the spatiotemporal characteristics of precipitation depth and intensities over the country; (c) the projected R values, as an average over Greece, follow the projected changes of precipitation of climatic models, but not in a spatially homogenous way."
 
@@ -39,10 +40,10 @@ projects = ["rainfall erosivity"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = [" rainfall erosivity", "erosivity density", "machine learning", "Global Circulation Models-Regional Climatic Models", "Greece"]
+tags = ["rainfall erosivity", "erosivity density", "machine learning", "Global Circulation Models-Regional Climatic Models", "Greece"]
 
 # Links (optional).
-url_pdf = "pdf/water-12-00687-v2.pdf"
+url_pdf = "/pdf/water-12-00687-v2.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

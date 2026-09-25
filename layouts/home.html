@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{- $about := site.GetPage "/home/about" }}
+{{- $pubs := where site.RegularPages "Section" "publication" }}
+{{- $talks := where site.RegularPages "Section" "talk" }}
+
+<section class="hero" id="about">
+  <div class="container hero-grid">
+    <div class="hero-photo">
+      <img src="{{ site.Params.avatar | relURL }}" alt="Portrait of {{ site.Params.name }}" width="220" height="220">
+    </div>
+    <div class="hero-text">
+      <p class="eyebrow">{{ site.Params.organization }}</p>
+      <h1>{{ site.Params.name }}</h1>
+      <p class="role">{{ site.Params.role }}</p>
+      {{ with $about }}<div class="bio">{{ .Content }}</div>{{ end }}
+      {{ partial "social.html" . }}
+      <dl class="stats">
+        <div><dt>Publications</dt><dd>{{ len $pubs }}</dd></div>
+        <div><dt>Talks</dt><dd>{{ len $talks }}</dd></div>      </dl>
+    </div>
+  </div>
+</section>
+
+{{ with $about }}
+<section class="section section-alt">
+  <div class="container two-col">
+    {{ with .Params.interests.interests }}
+    <div>
+      <h2 class="section-title">Research interests</h2>
+      <ul class="chips">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ with .Params.education.courses }}
+    <div>
+      <h2 class="section-title">Education</h2>
+      <ol class="timeline">
+        {{ range sort . "year" "desc" }}
+        <li>
+          <span class="tl-year">{{ .year }}</span>
+          <div>
+            <p class="tl-title">{{ .course }}</p>
+            <p class="tl-sub">{{ .institution }}</p>
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Selected publications</h2>
+      <a class="more" href="{{ "publication/" | relURL }}">All {{ len $pubs }} publications {{ partial "icon.html" "arrow-right" }}</a>
+    </div>
+    <ul class="pub-list">
+      {{ range first 8 (where $pubs "Params.selected" true).ByDate.Reverse }}
+        {{ partial "pub-item.html" . }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt" id="talks">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Recent talks</h2>
+      <a class="more" href="{{ "talk/" | relURL }}">All talks {{ partial "icon.html" "arrow-right" }}</a>
+    </div>
+    <ul class="talk-list">
+      {{ range first 4 (sort $talks "Params.time_start" "desc") }}
+        {{ partial "talk-item.html" . }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <ul class="contact">
+      {{ with site.Params.email }}<li>{{ partial "icon.html" "email" }}<a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+      {{ with site.Params.phone }}<li>{{ partial "icon.html" "phone" }}<a href="tel:{{ replace . " " "" }}">{{ . }}</a></li>{{ end }}
+      {{ with site.Params.address }}<li>{{ partial "icon.html" "map-pin" }}<span>{{ . }}</span></li>{{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

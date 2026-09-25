@@ -1,0 +1,6 @@
+{{- /* Returns the publication type label for a page. */ -}}
+{{- $label := "Uncategorized" }}
+{{- with .Params.publication_types }}
+  {{- $label = index site.Params.publication_types (int (index . 0)) | default "Uncategorized" }}
+{{- end }}
+{{- return $label }}

@@ -1,0 +1,13 @@
+{{- $type := partial "pub-type.html" . }}
+<li class="pub" data-type="{{ $type | urlize }}" data-search="{{ lower (printf "%s %s %s %s" .Title (delimit (.Params.authors | default slice) " ") (.Params.publication | plainify) (delimit (.Params.tags | default slice) " ")) }}">
+  <div class="pub-meta">
+    <span class="badge badge-{{ $type | urlize }}">{{ $type }}</span>
+    <span class="pub-year">{{ .Date.Year }}</span>
+  </div>
+  <div class="pub-body">
+    <h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="pub-authors">{{ partial "authors.html" . }}</p>
+    {{ with .Params.publication }}<p class="pub-venue">{{ . | markdownify }}</p>{{ end }}
+    {{ partial "links.html" . }}
+  </div>
+</li>

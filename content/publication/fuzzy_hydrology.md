@@ -1,5 +1,5 @@
 +++
-title = " Intra-storm pattern recognition through fuzzy clustering "
+title = "Intra-storm pattern recognition through fuzzy clustering"
 date = 2021-03-16T16:17:52+02:00
 draft = false
 
@@ -18,8 +18,9 @@ authors = ["K Vantas", "E Sidiropoulos"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In Hydrology *8(2)*: p. 57"
+publication = "*Hydrology* 8(2): 57, 2021"
 publication_short = "In *Hydrology*"
+doi = "10.3390/hydrology8020057"
 
 # Abstract and optional shortened version.
 abstract = "The identification and recognition of temporal rainfall patterns is important and useful not only for climatological studies, but mainly for supporting rainfall–runoff modeling and water resources management. Clustering techniques applied to rainfall data provide meaningful ways for producing concise and inclusive pattern classifications. In this paper, a timeseries of rainfall data coming from the Greek National Bank of Hydrological and Meteorological Information are delineated to independent rainstorms and subjected to cluster analysis, in order to identify and extract representative patterns. The computational process is a custom-developed, domain-specific algorithm that produces temporal rainfall patterns using common characteristics from the data via fuzzy clustering in which (a) every storm may belong to more than one cluster, allowing for some equivocation in the data, (b) the number of the clusters is not assumed known a priori but is determined solely from the data and, finally, (c) intra-storm and seasonal temporal distribution patterns are produced. Traditional classification methods include prior empirical knowledge, while the proposed method is fully unsupervised, not presupposing any external elements and giving results superior to the former."
@@ -43,7 +44,7 @@ projects = []
 tags = ["rainstorm events", "inter-event time", "intra-storm patterns", "fuzzy clustering", "clustering analysis", "clustering tendency", "Greece"]
 
 # Links (optional).
-url_pdf = "pdf/hydrology-08-00057-v2.pdf"
+url_pdf = "/pdf/hydrology-08-00057-v2.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

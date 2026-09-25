@@ -6,7 +6,7 @@ time_start = 2018-07-03T17:00:00
 time_end = 2018-07-03T19:00:00
 abstract = "An unsupervised method that utilizes a combination of statistical and machine learning techniques is presented in order to classify statistically independent rainstorm events and create a limited number of design hyetographs for the Water Division of Thrace in Greece. The whole process includes the necessary steps from importing raw precipitation time series data to producing the initially unknown optimal number of representative design hyetographs. These hyetographs can be used for stochastic simulation, water resources planning, water quality assessment and global change studying. The present type of analysis is applied for the first time on data from a Greek region and, in addition, it presents certain characteristics of a more general applicability. Namely, the method employed is fully unsupervised, as no empirical knowledge of local rainfalls is implicated or any arbitrary introduction of quartiles for grouping. Also, the critical time duration of no precipitation between rainstorm events is not defined in advance, as is the case in the pertinent literature."
 abstract_short = ""
-event = "“Protection and Restoration of the Environment XIV"
+event = "Protection and Restoration of the Environment XIV (PRE XIV)"
 event_url = "http://pre14.civil.auth.gr/"
 location = "Grand Hotel Palace, Thessaloniki, Greece"
 
@@ -19,8 +19,8 @@ selected = false
 #projects = ["deep-learning"]
 
 # Links (optional).
-url_pdf = "/pdf/pre_XIV_123pres.pdf"
-url_slides = ""
+url_pdf = ""
+url_slides = "/pdf/pre_XIV_123pres.pdf"
 url_video = ""
 url_code = ""
 

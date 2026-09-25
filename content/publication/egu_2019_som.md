@@ -18,7 +18,7 @@ authors = ["K Vantas", "E Sidiropoulos", "C Evangelides"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "*European Geosciences Union General Assembly*, 2019"
+publication = "*EGU General Assembly 2019*, EGU2019-10680"
 publication_short = "*EGU2019*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = ["unsupervised learning", "SOM", "hyetographs", "water-resources", "design-storms"]
 
 # Links (optional).
-url_pdf = "pdf/EGU2019-10680.pdf"
+url_pdf = "/pdf/EGU2019-10680.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

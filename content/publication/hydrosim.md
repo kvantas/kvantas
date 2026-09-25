@@ -18,7 +18,7 @@ authors = ["S Yannopoulos","K Vantas", "C. Tzimopoulos", "C. Evaggelidis"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "EWRA Seventh International Conference *1*: p. 487-484, 2015"
+publication = "*EWRA Seventh International Conference*, 487–494, 2009"
 publication_short = "In *EWRA Seventh International Conference*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = ["distribution networks", "drinking water", "water quality"]
 
 # Links (optional).
-url_pdf = "pdf/ewra2009.pdf"
+url_pdf = "/pdf/ewra2009.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

@@ -18,7 +18,7 @@ authors = ["E Sidiropoulos", "K Vantas", "C Evangelides"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "*European Geosciences Union General Assembly*, 2019"
+publication = "*EGU General Assembly 2019*, EGU2019-10923"
 publication_short = "*EGU2019*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = ["water-resources", "spatial allocation", "extremal optimization", "cellular automata"]
 
 # Links (optional).
-url_pdf = "pdf/EGU2019-10923.pdf"
+url_pdf = "/pdf/EGU2019-10923.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

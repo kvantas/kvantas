@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="section page-head">
+  <div class="container">
+    <p class="crumbs">{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title | default "Home" }}</a>{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+<section class="section section-tight">
+  <div class="container">
+    {{ if eq .Kind "taxonomy" }}
+      <ul class="chips tags">
+        {{ range .Data.Terms.Alphabetical }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span>{{ .Count }}</span></a></li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <ul class="pub-list">
+        {{ range .Pages.ByDate.Reverse }}
+          {{ if eq .Section "publication" }}{{ partial "pub-item.html" . }}
+          {{ else if eq .Section "talk" }}{{ partial "talk-item.html" . }}
+          {{ else }}<li class="pub"><div class="pub-body"><h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div></li>{{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

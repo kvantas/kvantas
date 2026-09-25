@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{- $type := partial "pub-type.html" . }}
+<article class="section">
+  <div class="container narrow">
+    <p class="crumbs"><a href="{{ "publication/" | relURL }}">Publications</a> / {{ .Date.Year }}</p>
+    <span class="badge badge-{{ $type | urlize }}">{{ $type }}</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <p class="pub-authors lg">{{ partial "authors.html" . }}</p>
+    {{ with .Params.publication }}<p class="pub-venue lg">{{ . | markdownify }}</p>{{ end }}
+    {{ partial "links.html" . }}
+
+    {{ with .Params.abstract }}
+    <h2 class="sub">Abstract</h2>
+    <div class="prose">{{ . | markdownify }}</div>
+    {{ end }}
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+    {{ with .Params.tags }}
+    <ul class="chips tags">
+      {{ range . }}<li><a href="{{ (printf "tags/%s/" (. | urlize)) | relURL }}">{{ . }}</a></li>{{ end }}
+    </ul>
+    {{ end }}
+
+    <h2 class="sub">Cite</h2>
+    {{- $venue := .Params.publication | default "" | plainify }}
+    <div class="cite">
+      <p id="cite-text">{{ delimit .Params.authors ", " }} ({{ .Date.Year }}). {{ .Title }}. {{ $venue }}{{ with .Params.doi }}. https://doi.org/{{ . }}{{ end }}</p>
+      <button type="button" class="btn btn-ghost" id="cite-copy">{{ partial "icon.html" "quote" }}Copy</button>
+    </div>
+  </div>
+</article>
+<script>
+  (function () {
+    var b = document.getElementById("cite-copy");
+    b.addEventListener("click", function () {
+      var t = document.getElementById("cite-text").innerText;
+      if (navigator.clipboard) navigator.clipboard.writeText(t).then(function () {
+        b.lastChild.textContent = "Copied";
+        setTimeout(function () { b.lastChild.textContent = "Copy"; }, 1500);
+      });
+    });
+  })();
+</script>
+{{ end }}

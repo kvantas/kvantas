@@ -18,8 +18,9 @@ authors = ["K Vantas", "E Sidiropoulos", "M Vafeiadis"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In Global NEST *..(.)*: p. ..., 2019"
+publication = "*Global NEST Journal* 21(4): 530–538, 2019"
 publication_short = "In *Global NEST*"
+doi = "10.30955/gnj.002997"
 # Abstract and optional shortened version.
 abstract = "A novel method that utilizes a combination of statistical and clustering techniques is presented in order to classify statistically independent heavy rainstorm events and create a limited number of representative intra-storm temporal distribution curves. These curves represent the centers of many dimensionless cumulative rainstorm events and express the temporal distribution patterns in a probabilistic way. The whole process includes the necessary steps from importing raw precipitation time series data to producing the initially unknown optimal number of representative curves. These hyetographs can be used for stochastic simulation, water resources planning, water quality assessment and global change studying. The present type of analysis is fully unsupervised, as no empirical knowledge of local rainfalls is implicated or any arbitrary introduction of quartiles for grouping as is the case in the pertinent literature. It replaces the traditional Huff’s method by utilizing modern machine learning techniques, thus being clearly data driven and more rational. An example using data from a Greek Water Division illustrates that the proposed method produces clusters with superior internal structure and temporal distribution curves that are not coming from the same distribution, in contrast to the results using the established Huff’s curves classification."
 
@@ -42,7 +43,7 @@ projects = []
 tags = ["Rainfall temporal distribution", "design hyetographs", "optimal number of clusters", "unsupervised learning", "Huff’s curves"]
 
 # Links (optional).
-url_pdf = "pdf/gnest_02997_proof.pdf"
+url_pdf = "/pdf/gnest_02997_proof.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -50,7 +51,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://doi.org/10.30955/gnj.002997"
+url_source = "https://journal.gnest.org/publication/gnest_02997"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

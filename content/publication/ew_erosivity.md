@@ -18,7 +18,7 @@ authors = ["K Vantas", "E Sidiropoulos"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In European Water *57*: p. 193-199, 2017"
+publication = "*European Water* 57: 193–199, 2017"
 publication_short = "In *European Water*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = ["machine learning", "rainfall erosivity", "water-resources", "missing values", "imputation"]
 
 # Links (optional).
-url_pdf = "pdf/EW_2017_57_27.pdf"
+url_pdf = "/pdf/EW_2017_57_27.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

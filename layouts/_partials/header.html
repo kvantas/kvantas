@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Params.name }}</a>
+    <nav aria-label="Main">
+      <ul class="nav">
+        {{- $current := . }}
+        {{- range site.Menus.main }}
+        {{- $active := and (not (hasPrefix .URL "/#")) (hasPrefix $current.RelPermalink (.URL | relURL)) }}
+        <li><a href="{{ .URL | relURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{- end }}
+      </ul>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <span class="when-light">{{ partial "icon.html" "moon" }}</span>
+      <span class="when-dark">{{ partial "icon.html" "sun" }}</span>
+    </button>
+  </div>
+</header>

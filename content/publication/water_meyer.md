@@ -1,5 +1,5 @@
 +++
-title = " Extending the Applicability of the Meyer–Peter and Müller Bed Load Transport Formula"
+title = "Extending the Applicability of the Meyer–Peter and Müller Bed Load Transport Formula"
 date = 2021-01-16T16:17:52+02:00
 draft = false
 
@@ -18,8 +18,9 @@ authors = ["E Sidiropoulos","K Vantas", "V Hrissanthou", "T Papalaskaris"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In Water *13(20)*: p. 2817, 2021"
+publication = "*Water* 13(20): 2817, 2021"
 publication_short = "In *Water*"
+doi = "10.3390/w13202817"
 
 # Abstract and optional shortened version.
 abstract = "The present paper deals with the applicability of the Meyer–Peter and Müller (MPM) bed load transport formula. The performance of the formula is examined on data collected in a particular location of Nestos River in Thrace, Greece, in comparison to a proposed Εnhanced MPM (EMPM) formula and to two typical machine learning methods, namely Random Forests (RF) and Gaussian Processes Regression (GPR). The EMPM contains new adjustment parameters allowing calibration. The EMPM clearly outperforms MPM and, also, it turns out to be quite competitive in comparison to the machine learning schemes. Calibrations are repeated with suitably smoothed measurement data and, in this case, EMPM outperforms MPM, RF and GPR. Data smoothing for the present problem is discussed in view of a special nearest neighbor smoothing process, which is introduced in combination with nonlinear regression."
@@ -43,7 +44,7 @@ projects = []
 tags = ["bed load transport", "random forests", "Gaussian processes regression", "Meyer–Peter and Müller formula", "sediment transport"]
 
 # Links (optional).
-url_pdf = "pdf/water-13-02817-v3.pdf"
+url_pdf = "/pdf/water-13-02817-v3.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

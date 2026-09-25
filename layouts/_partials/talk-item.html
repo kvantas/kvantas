@@ -1,0 +1,15 @@
+{{- $start := .Params.time_start | default .Date | time.AsTime }}
+<li class="talk">
+  <time class="talk-date" datetime="{{ $start.Format "2006-01-02" }}">
+    <span class="talk-month">{{ $start.Format "Jan" }}</span>
+    <span class="talk-yr">{{ $start.Year }}</span>
+  </time>
+  <div class="talk-body">
+    <h3 class="talk-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="talk-where">
+      {{- with .Params.event }}{{ if $.Params.event_url }}<a href="{{ $.Params.event_url }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}{{ end -}}
+      {{- if and .Params.event .Params.location }} · {{ end -}}
+      {{- with .Params.location }}{{ . | markdownify }}{{ end -}}
+    </p>
+  </div>
+</li>

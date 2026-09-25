@@ -1,0 +1,104 @@
+# Site configuration — Hugo >= 0.150 (custom in-repo layouts, no external theme)
+baseURL = "/"
+title = "Konstantinos Vantas"
+locale = "en-US"
+enableEmoji = true
+ignoreFiles = ['.Rmd$', '.Rmarkdown$', '_files$', '_cache$']
+
+[pagination]
+  pagerSize = 20
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.extensions.typographer]
+  disable = false
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[params]
+  name = "Konstantinos Vantas"
+  role = "Consultant Engineer"
+  organization = "Hydraulic Engineering & Geoinformatics"
+  description = "Konstantinos Vantas — hydrology, water resources, geoinformatics and machine learning."
+  avatar = "img/kvantas.jpg"
+  email = "kon.vantas@gmail.com"
+  address = "L. Nikis 58, Kastoria, 52100, Greece"
+  phone = "+30 24670 24804"
+  # Name variants to highlight in author lists
+  me = ["K Vantas", "K. Vantas", "Konstantinos Vantas"]
+
+  # Publication types — the index is the id used in `publication_types` front matter.
+  publication_types = [
+    "Uncategorized",    # 0
+    "Conference paper", # 1
+    "Journal article",  # 2
+    "Manuscript",       # 3
+    "Report",           # 4
+    "Book",             # 5
+    "Book chapter",     # 6
+    "Thesis",           # 7
+    "Software",         # 8
+    "Preprint",         # 9
+  ]
+
+  [[params.social]]
+    name = "Email"
+    icon = "email"
+    url = "mailto:kon.vantas@gmail.com"
+  [[params.social]]
+    name = "Google Scholar"
+    icon = "scholar"
+    url = "https://scholar.google.gr/citations?user=TeccSroAAAAJ&hl=en"
+  [[params.social]]
+    name = "ORCID"
+    icon = "orcid"
+    url = "https://orcid.org/0000-0001-6387-8791"
+  [[params.social]]
+    name = "ResearchGate"
+    icon = "researchgate"
+    url = "https://www.researchgate.net/profile/Konstantinos_Vantas"
+  [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    url = "https://github.com/kvantas"
+  [[params.social]]
+    name = "LinkedIn"
+    icon = "linkedin"
+    url = "https://www.linkedin.com/in/konstantinosvantas/"
+  [[params.social]]
+    name = "X (Twitter)"
+    icon = "x"
+    url = "https://x.com/kvantas"
+
+[[menus.main]]
+  name = "About"
+  url = "/#about"
+  weight = 1
+[[menus.main]]
+  name = "Publications"
+  url = "/publication/"
+  weight = 2
+[[menus.main]]
+  name = "Talks"
+  url = "/talk/"
+  weight = 3
+[[menus.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 4
+
+# content/home/ only holds data for the home page (about.md) — don't render it as pages.
+[[cascade]]
+  [cascade.build]
+    list = "never"
+    render = "never"
+  [cascade.target]
+    path = "{/home,/home/**}"

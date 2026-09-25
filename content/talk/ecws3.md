@@ -8,7 +8,7 @@ abstract = "The spatial allocation of groundwater resources gives rise to proble
 abstract_short = ""
 event = "European Geosciences Union General Assembly 2019"
 event_url = "https://egu2019.eu/"
-location = "Vienna | Austria | 7–12 April 2019"
+location = "Vienna, Austria"
 
 # Is this a selected talk? (true/false)
 selected = false

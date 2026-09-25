@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- $start := .Params.time_start | default .Date | time.AsTime }}
+<article class="section">
+  <div class="container narrow">
+    <p class="crumbs"><a href="{{ "talk/" | relURL }}">Talks</a> / {{ $start.Year }}</p>
+    <span class="badge">Talk</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <dl class="facts">
+      <div><dt>Date</dt><dd>{{ $start.Format "2 January 2006" }}{{ with .Params.time_end }}{{ $end := time.AsTime . }}{{ if eq ($end.Format "2006-01-02") ($start.Format "2006-01-02") }}, {{ $start.Format "15:04" }}–{{ $end.Format "15:04" }}{{ end }}{{ end }}</dd></div>
+      {{ with .Params.event }}<div><dt>Event</dt><dd>{{ if $.Params.event_url }}<a href="{{ $.Params.event_url }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}</dd></div>{{ end }}
+      {{ with .Params.location }}<div><dt>Location</dt><dd>{{ . | markdownify }}</dd></div>{{ end }}
+    </dl>
+    {{ partial "links.html" . }}
+    {{ with .Params.abstract }}
+    <h2 class="sub">Abstract</h2>
+    <div class="prose">{{ . | markdownify }}</div>
+    {{ end }}
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  </div>
+</article>
+{{ end }}

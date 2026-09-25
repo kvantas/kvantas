@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="section page-head">
+  <div class="container">
+    <h1>Talks</h1>
+    <p class="lead">Conference presentations, invited lectures and seminars.</p>
+  </div>
+</section>
+<section class="section section-tight">
+  <div class="container">
+    <ul class="talk-list">
+      {{ range sort .RegularPages "Params.time_start" "desc" }}
+        {{ partial "talk-item.html" . }}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

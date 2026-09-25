@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Hydrology",
-    "Water Recources Management",
+    "Water Resources Management",
     "Geoinformatics",
     "Machine Learning",
     "R"
@@ -40,7 +40,6 @@ weight = 5
 
 +++
 
-# Biography
 
 I am a consultant engineer in Hydraulic Engineering and Geoinformatics and have 19+ years of experience on independent expertise in engineering to the Greek government, developers and construction firms.
 

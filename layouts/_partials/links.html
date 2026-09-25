@@ -1,0 +1,20 @@
+{{- /* Link buttons for a publication or talk page. */ -}}
+{{- $p := .Params }}
+{{- $links := slice }}
+{{- with $p.url_pdf }}{{ $links = $links | append (dict "name" "PDF" "url" (. | relURL) "icon" "file-text") }}{{ end }}
+{{- with $p.doi }}{{ $links = $links | append (dict "name" "DOI" "url" (printf "https://doi.org/%s" .) "icon" "external-link") }}{{ end }}
+{{- with $p.url_source }}{{ if not (and $p.doi (strings.Contains . $p.doi)) }}{{ $links = $links | append (dict "name" "Source" "url" . "icon" "external-link") }}{{ end }}{{ end }}
+{{- with $p.url_code }}{{ $links = $links | append (dict "name" "Code" "url" . "icon" "code") }}{{ end }}
+{{- with $p.url_slides }}{{ $links = $links | append (dict "name" "Slides" "url" (. | relURL) "icon" "presentation") }}{{ end }}
+{{- with $p.url_poster }}{{ $links = $links | append (dict "name" "Poster" "url" (. | relURL) "icon" "presentation") }}{{ end }}
+{{- with $p.url_preprint }}{{ $links = $links | append (dict "name" "Preprint" "url" . "icon" "file-text") }}{{ end }}
+{{- with $p.url_dataset }}{{ $links = $links | append (dict "name" "Dataset" "url" . "icon" "external-link") }}{{ end }}
+{{- with $p.url_video }}{{ $links = $links | append (dict "name" "Video" "url" . "icon" "external-link") }}{{ end }}
+{{- range $p.url_custom }}{{ $links = $links | append (dict "name" .name "url" .url "icon" "external-link") }}{{ end }}
+{{- with $links }}
+<ul class="links">
+  {{- range . }}
+  <li><a class="btn" href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ partial "icon.html" .icon }}{{ .name }}</a></li>
+  {{- end }}
+</ul>
+{{- end }}

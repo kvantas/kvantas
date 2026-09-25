@@ -18,8 +18,9 @@ authors = ["K Vantas", "E Sidiropoulos", "C Evangelides"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "*The 4th EWaS International Conference: Valuing the Water, Carbon, Ecological Footprints of Human Activities*, 2020"
+publication = "*Environmental Sciences Proceedings* 2(1): 21, 2020 (4th EWaS International Conference)"
 publication_short = "*Environ. Sci. Proc. 2020*"
+doi = "10.3390/environsciproc2020002021"
 
 # Abstract and optional shortened version.
 abstract = "One of the most important natural processes responsible for soil loss is rainfall-induced erosion. The calculation of rainfall erosivity, as defined in the Universal Soil Loss Equation, requires the availability of rainfall data, either continuous breakpoint, or pluviograph, with sampling intervals on the order of minutes. Due to the limited temporal coverage and spatial scarcity of such data, worldwide, alternative equations have been developed that utilize coarser rainfall records, in an effort to estimate erosivity equivalently to that calculated using pluviograph data. This paper presents the application of generalized additive models (GAMs) to estimate erosivity utilizing daily rainfall records. As a case study, pluviograph data with a time step of 30 min from the Water District of Thrace in Greece were used. By applying GAMs, it became possible to model the nonlinear relation between daily rainfall, seasonal periodicity, and rainfall erosivity more effectively, in terms of accuracy, than the application of two well-known nonlinear empirical equations, both on a daily and an annual basis."
@@ -43,7 +44,7 @@ projects = ["rainfall erosivity"]
 tags = ["machine learning", "rainfall erosivity", "water-resources"]
 
 # Links (optional).
-url_pdf = "pdf/environsciproc-02-00021.pdf"
+url_pdf = "/pdf/environsciproc-02-00021.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

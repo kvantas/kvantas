@@ -18,8 +18,9 @@ authors = ["K Vantas"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In Journal of Open Source Software *3*(23): p. 625, 2018"
+publication = "*Journal of Open Source Software* 3(23): 625, 2018"
 publication_short = "In *Journal of Open Source Software*"
+doi = "10.21105/joss.00625"
 
 # Abstract and optional shortened version.
 abstract = "`hydroscoper` provides functionality for automatic retrieval and translation of Hydroscope's data to English for use in R. The main functions that can be utilized is the family of functions, `get_stations`, `get_timeseries`, `get_data`, etc., to easily download JSON and TXT files as tidy data frames. The internal databases of the package can be used to run queries on the available stations and time series, reducing the time needed for downloading and data wrangling, as these data are rarely modified."
@@ -43,7 +44,7 @@ projects = []
 tags = ["R package", "water-resources", "meteorological-data", "hydro-meteorology"]
 
 # Links (optional).
-url_pdf = "pdf/10.21105.joss.00625.pdf"
+url_pdf = "/pdf/10.21105.joss.00625.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -51,7 +52,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "http://joss.theoj.org/papers/d880c6734171479faae7eb53bf826ace"
+url_source = "https://joss.theoj.org/papers/10.21105/joss.00625"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

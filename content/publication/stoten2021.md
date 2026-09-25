@@ -18,8 +18,9 @@ authors = ["P Borrelli", "C Alewell", "K Vantas", "et al."]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Science of The Total Environment *780*: p. 146494"
+publication = "*Science of The Total Environment* 780: 146494, 2021"
 publication_short = "In *Science of The Total Environment*"
+doi = "10.1016/j.scitotenv.2021.146494"
 # Abstract and optional shortened version. 
 abstract = "To gain a better understanding of the global application of soil erosion prediction models, we comprehensively reviewed relevant peer-reviewed research literature on soil-erosion modelling published between 1994 and 2017. We aimed to identify (i) the processes and models most frequently addressed in the literature, (ii) the regions within which models are primarily applied, (iii) the regions which remain unaddressed and why, and (iv) how frequently studies are conducted to validate/evaluate model outcomes relative to measured data. To perform this task, we combined the collective knowledge of 67 soil-erosion scientists from 25 countries. The resulting database, named ‘Global Applications of Soil Erosion Modelling Tracker (GASEMT)’, includes 3030 individual modelling records from 126 countries, encompassing all continents (except Antarctica). Out of the 8471 articles identified as potentially relevant, we reviewed 1697 appropriate articles and systematically evaluated and transferred 42 relevant attributes into the database. This GASEMT database provides comprehensive insights into the state-of-the-art of soil- erosion models and model applications worldwide. This database intends to support the upcoming country-based United Nations global soil-erosion assessment in addition to helping to inform soil erosion research priorities by building a foundation for future targeted, in-depth analyses. GASEMT is an open-source database available to the entire user-community to develop research, rectify errors, and make future expansions. Soil Erosion Modelling Team: Pasquale Borrelli, Christine Alewell, Pablo Armando Alvarez Figueroa, Jamil Alexandre Ayach Anache, Jantiene Baartman, Cristiano Ballabio, Marcella Biddoccu, Artemi Cerda, Devraj Chalise, Changjia Li, Songchao Chen, Walter Chen, Anna Maria De Girolamo, Gizaw Desta, Detlef Deumlich, Nikolaos Efthymiou, Gunay Erpul, Peter Fiener, Michele Freppaz, Francesco Gentile, Andreas Gericke, Nigussie Haregeweyn, Bifeng Hu, Amelie Jeanneau, Konstantinos Kaffas, Mahboobeh Kiani-Harchegani, Ivan Lizaga Villuendas, Luigi Lombardo, Manuel López-Vicente, Manuel Esteban Lucas-Borja, Michael Märker, Chiyuan Miao, Matjaž Mikoš, Markus Möller, Victoria Naipal, Mark Nearing, Stephen Owusu, Panos Panagos, Dinesh Panday, Edouard Patault, Cristian Patriche, Laura Poggio, Raquel Portes, Laura Quijano Gaudes, Mohammad Reza Rahdari, Mohammed Renima, Giovanni Francesco Ricci, Jesús Rodrigo-Comino, Sergio Saia, Aliakbar Nazari Samani, Calogero Schillaci, Kim Hyuck Soo, Diogo Noses Spinola, Paulo Tarso Oliveira, Hongfen Teng, Resham Thapa, Konstantinos Vantas, Diana Vieira, Jae E. Yang, Shuiqing Yin, Demetrio Antonio Zema, Guangju Zhao"
 
@@ -42,7 +43,7 @@ projects = []
 tags = ["Erosion rates", "Modelling", "GIS", "Land sustainability", "Land degradation", "Policy support"]
 
 # Links (optional).
-url_pdf = "pdf/S004896972101562X.pdf"
+url_pdf = "/pdf/S004896972101562X.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

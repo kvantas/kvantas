@@ -18,7 +18,7 @@ authors = ["K Vantas", "K Kaffas", "E Sidiropoulos", "V Hrissanthou"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "7th International Association for Hydro-Environment Engineering and Research Europe Congress *1*: p. 74-75, 2022"
+publication = "*7th IAHR Europe Congress* 1: 74–75, 2022"
 publication_short = "In *7th International Association for Hydro-Environment Engineering and Research*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = ["sediment transport", "Nestos River", "Greece"]
 
 # Links (optional).
-url_pdf = "pdf/Engelund_Hansen.pdf"
+url_pdf = "/pdf/Engelund_Hansen.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

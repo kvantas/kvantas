@@ -1,0 +1,7 @@
+{{- /* Author list with the site owner highlighted. */ -}}
+{{- $me := site.Params.me }}
+{{- $n := len .Params.authors }}
+{{- range $i, $a := .Params.authors -}}
+  {{- if in $me $a }}<strong class="me">{{ $a }}</strong>{{ else }}{{ $a }}{{ end -}}
+  {{- if lt (add $i 1) $n }}, {{ end -}}
+{{- end -}}

@@ -3,3 +3,8 @@ public/
 .Rhistory
 .RData
 .Ruserdata
+
+.hugo_build.lock
+resources/
+themes/
+.claude/

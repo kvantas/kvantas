@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{- $pubs := .RegularPages.ByDate.Reverse }}
+{{- $types := slice }}
+{{- $counts := dict }}
+{{- range $pubs }}{{ $t := partial "pub-type.html" . }}{{ $types = $types | append $t }}{{ $k := $t | urlize }}{{ $counts = merge $counts (dict $k (add (index $counts $k | default 0) 1)) }}{{ end }}
+<section class="section page-head">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ len $pubs }} items: journal articles, conference papers, book chapters, theses and software.
+      Also on <a href="https://scholar.google.gr/citations?user=TeccSroAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
+    <div class="filters" role="search">
+      <label class="search">
+        {{ partial "icon.html" "search" }}
+        <input type="search" id="pub-search" placeholder="Search title, author, venue, keyword…" aria-label="Search publications">
+      </label>
+      <div class="chips chips-filter" role="group" aria-label="Filter by type">
+        <button type="button" class="chip is-active" data-filter="*">All <span>{{ len $pubs }}</span></button>
+        {{- range $t := $types | uniq | sort }}
+        <button type="button" class="chip" data-filter="{{ $t | urlize }}">{{ $t }} <span>{{ index $counts ($t | urlize) }}</span></button>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container">
+    {{- range $pubs.GroupByDate "2006" }}
+    <div class="year-group">
+      <h2 class="year">{{ .Key }}</h2>
+      <ul class="pub-list">
+        {{ range .Pages }}{{ partial "pub-item.html" . }}{{ end }}
+      </ul>
+    </div>
+    {{- end }}
+    <p class="empty" id="pub-empty" hidden>No publications match your search.</p>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var input = document.getElementById("pub-search");
+    var chips = document.querySelectorAll(".chips-filter .chip");
+    var items = document.querySelectorAll(".pub");
+    var groups = document.querySelectorAll(".year-group");
+    var empty = document.getElementById("pub-empty");
+    var type = "*";
+    function apply() {
+      var q = input.value.trim().toLowerCase();
+      var shown = 0;
+      items.forEach(function (el) {
+        var ok = (type === "*" || el.dataset.type === type) && (!q || el.dataset.search.indexOf(q) !== -1);
+        el.hidden = !ok;
+        if (ok) shown++;
+      });
+      groups.forEach(function (g) { g.hidden = !g.querySelector(".pub:not([hidden])"); });
+      empty.hidden = shown !== 0;
+    }
+    chips.forEach(function (c) {
+      c.addEventListener("click", function () {
+        chips.forEach(function (o) { o.classList.remove("is-active"); });
+        c.classList.add("is-active");
+        type = c.dataset.filter;
+        apply();
+      });
+    });
+    input.addEventListener("input", apply);
+  })();
+</script>
+{{ end }}

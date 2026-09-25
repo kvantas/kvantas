@@ -18,7 +18,7 @@ authors = ["K Vantas", "E Sidiropoulos", "M Vafeiadis"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "*Protection and Restoration of the Environment XIV*, 2018"
+publication = "*Protection and Restoration of the Environment XIV*, 555–564, 2018"
 publication_short = "*preXIV*"
 
 # Abstract and optional shortened version.
@@ -43,7 +43,7 @@ projects = []
 tags = ["machine learning", "hyetographs", "water-resources", "design-storms"]
 
 # Links (optional).
-url_pdf = "pdf/PRE_XIV_Paper_ID123.pdf"
+url_pdf = "/pdf/PRE_XIV_Paper_ID123.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
