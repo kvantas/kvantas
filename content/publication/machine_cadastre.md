@@ -18,8 +18,8 @@ authors = ["K Vantas"]
 publication_types = ["7"]
 
 # Publication name and optional abbreviated version.
-publication = "Thesis, Aristotle University of Thessaloniki, Greece"
-publication_short = "Thesis, AUTh"
+publication = "MSc thesis, School of Law, Aristotle University of Thessaloniki, Greece"
+publication_short = "MSc thesis, AUTh"
 doi = "10.26262/heal.auth.ir.336793"
 # Abstract and optional shortened version.
 abstract = "The improvement of positional accuracy involves the gradual refining of the geometric features in a geospatial information data set. During the last decades, the value of cadastral databases with gradually higher spatial accuracy has been recognized worldwide and various processes and methods have been developed. Resurveying the totality of the previous features, although the best practice, is a process that involves time-consuming and costly procedures. Alternatively, it is possible to reduce the error through appropriate transformations, using a smaller set of higher-precision, homologous data. In the Hellenic Cadastre spatial database, a geometric conflation problem has been arisen by the combination of geospatial information of different accuracy, due to the different technical specifications applied to the successive generations of cadastral surveying, and also due to extensive geometric failures that have been identified. This issue prevents the enaction into law of the acceptable deviation of a parcel in terms of area, location, shape and boundaries and also introduced the process of resurveying. Machine Learning regards the study of algorithms that have the ability to automatically improve their performance using data and only recently have been utilized in cadastral applications. This thesis introduces and evaluates the use of the aforementioned algorithms, in order to: a) recognize the existence of structure or anomalies in geometric errors, b) automatically improve the positional accuracy of cadastral data, c) evaluate their generalization ability using an appropriate cross-validation procedure and d) select the best one via statistical testing."

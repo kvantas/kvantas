@@ -19,4 +19,13 @@ Then open http://localhost:1313.
 
 ## Deploy
 
-Netlify builds the site with `hugo --gc --minify` (see `netlify.toml`).
+The site is served by Plesk straight from the `public/` folder in this repository, so the built output is committed. After any change:
+
+```bash
+hugo --gc --minify --cleanDestinationDir
+git add -A
+git commit -m "Update site"
+git push
+```
+
+Then pull the new commit in Plesk (or let its Git webhook do it).
