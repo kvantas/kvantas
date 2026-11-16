@@ -8,7 +8,7 @@
 [ResearchGate](https://www.researchgate.net/profile/Konstantinos_Vantas) ·
 [LinkedIn](https://www.linkedin.com/in/konstantinosvantas/)
 
-I am a consultant engineer in hydraulic engineering and geoinformatics, with 19+ years of independent practice for the Greek government, developers and construction firms. My research applies statistics and machine learning to hydrology, water resources and land administration. I am a member of the Technical Chamber of Greece and of the Hellenic Association of Rural and Surveying Engineers.
+I am a consultant engineer in hydraulic engineering and geoinformatics, with 20+ years of independent practice for the Greek government, developers and construction firms. My research applies statistics and machine learning to hydrology, water resources and land administration. I am a member of the Technical Chamber of Greece and of the Hellenic Association of Rural and Surveying Engineers.
 
 ## Research interests
 
