@@ -41,6 +41,8 @@ The full list of 26 publications, with abstracts and PDFs, is on [my website](ht
 
 - [**hydroscoper**](https://github.com/ropensci/hydroscoper): R interface to the Greek National Data Bank for Hydrological and Meteorological Information, peer-reviewed by rOpenSci and published in the [Journal of Open Source Software](https://doi.org/10.21105/joss.00625).
 - [**hyetor**](https://github.com/kvantas/hyetor): R package for the analysis of fixed-interval precipitation records, including storm separation, rainfall erosivity and design hyetographs.
+-[**Hydroscoper**](https://zenodo.org/records/24204003): Modern Water Distribution Network Simulation, Multi-Scenario Analysis, 3-Stage Pipeline Failure & Asset Risk ModelingStudio in Rust.
+-[**mapAI**](https://zenodo.org/records/15767080): Comprehensive, end-to-end toolkit in R for the Positional Accuracy Improvement (PAI) of vector geo-data.
 
 ---
 
